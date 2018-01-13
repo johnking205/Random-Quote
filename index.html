@@ -1,0 +1,24 @@
+<!DOCTYPE html lang="en-US">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="John Sterrett" />
+        <meta name="description" content="John Sterrett Front-End Engineer HTML CSS JS" />
+
+        <title>Get a random quote</title>
+        <link rel="stylesheet" href="quote.css" />
+        <script type="text/javascript" src="external.js"></script>
+        <link rel="icon" href="placeholder.png" /> <!-- http://icons.iconarchive.com/icons/graphicloads/100-flat/64/contact-icon.png -->
+    </head>
+    <body onload="randomQuote()">
+        <div class='quoteBox'>
+            <p class='fadein' id='quote'></p>
+            <p id='author'></p>
+            <div class='buttons'>
+                <a id='tweet' target='_blank'>
+                    <button class='buttonLeft'>Tweet</button>
+                </a>
+                <button class='buttonRight' onclick="randomQuote()">Get Quote</button>
+            </div>
+        </div>
+    </body>
