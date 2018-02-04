@@ -10,7 +10,7 @@ function randomQuote() {
             }
         }
     };
-    httpRequest.open('GET', 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous&count=1")', true);
+    httpRequest.open('GET', 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous&count=1', true);
     httpRequest.setRequestHeader("X-Mashape-Key", "dfesModKT4mshUmULZg6D4CeHrXzp1g8VamjsnI2YK0S29xKX4", "Content-Type", "application/x-www-form-urlencoded", "Accept", "application/json")
     httpRequest.send();
 }
